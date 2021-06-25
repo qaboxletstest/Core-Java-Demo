@@ -22,6 +22,14 @@ public class TypeCasting {
 		System.out.println("myLong is "+ myLong);
 		System.out.println("myInt is "+ myInt);
 		
+		long newNum = TypeCasting.addFive(234.567896);
+		System.out.println("Adding 5 returns "+ newNum );
+		
+	}
+	
+	
+	public static long addFive(double num) {
+		return (long)num + 5;
 	}
 
 }
