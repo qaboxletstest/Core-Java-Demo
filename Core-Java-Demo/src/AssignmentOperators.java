@@ -15,19 +15,19 @@ public class AssignmentOperators {
 		System.out.println(num1);
 	
 		// "-=" --> This operator is a compound of ‘-’ and ‘=’ operators.
-		int num3 = 10, num4 = 20;
+		int num3 = 100, num4 = 20;
 		num3 -= num4;
 		// num3 = num3 - num4
 		System.out.println(num3);
 
 		// "*=" --> This operator is a compound of ‘*’ and ‘=’ operators.
-		int num5 = 10, num6 = 20;
+		int num5 = 100, num6 = 20;
 		num5 *= num6;
 		// num5 = num5 * num6
 		System.out.println(num5);
 		
 		// "/=" --> This operator is a compound of ‘/’ and ‘=’ operators.
-		int num7 = 10, num8 = 20;
+		int num7 = 100, num8 = 20;
 		num7 /= num8;
 		// num7 = num7 / num8
 		System.out.println(num7);
