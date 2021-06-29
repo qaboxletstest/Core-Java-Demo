@@ -1,35 +1,42 @@
 
-public class TypeCasting {
-	
+public class AssignmentOperators {
 
 	public static void main(String[] args)  {
 		
-		// Widening Casting - Implicit
-		int numInt = 10;
-		long numLong = numInt;
-		double numDouble = numInt;
+		// "="
+		int age = 30;
 		
-		System.out.println("myInt is "+ numInt);
-		System.out.println("numLong is "+ numLong);
-		System.out.println("numDouble is "+ numDouble);
+		// Compound Statement ----> +=, -=, *=, /=, %=
 		
-		// Narrowing Casting - Implicit
-		double myDouble = 10.10d;
-		long myLong = (long)myDouble;
-		int myInt = (int)myDouble; // Manual casting - double to int
-		
-		System.out.println("myDouble is "+ myDouble);
-		System.out.println("myLong is "+ myLong);
-		System.out.println("myInt is "+ myInt);
-		
-		long newNum = TypeCasting.addFive(234.567896);
-		System.out.println("Adding 5 returns "+ newNum );
-		
-	}
+		// "+=" --> This operator is a compound of ‘+’ and ‘=’ operators.
+		int num1 = 100, num2 = 20; // Setup multiple variables in one line
+		num1 += num2;
+		// num1 = num1 + num2
+		System.out.println(num1);
 	
-	
-	public static long addFive(double num) {
-		return (long)num + 5;
-	}
+		// "-=" --> This operator is a compound of ‘-’ and ‘=’ operators.
+		int num3 = 10, num4 = 20;
+		num3 -= num4;
+		// num3 = num3 - num4
+		System.out.println(num3);
 
+		// "*=" --> This operator is a compound of ‘*’ and ‘=’ operators.
+		int num5 = 10, num6 = 20;
+		num5 *= num6;
+		// num5 = num5 * num6
+		System.out.println(num5);
+		
+		// "/=" --> This operator is a compound of ‘/’ and ‘=’ operators.
+		int num7 = 10, num8 = 20;
+		num7 /= num8;
+		// num7 = num7 / num8
+		System.out.println(num7);
+		
+		// "%=" --> This operator is a compound of ‘%’ and ‘=’ operators.
+		int num9 = 101, num10 = 20;
+		num9 %= num10;
+		// num9 = num9 % num10
+		System.out.println(num9);
+		
+	}
 }
