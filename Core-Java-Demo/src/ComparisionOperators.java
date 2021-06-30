@@ -3,8 +3,7 @@ public class ComparisionOperators {
 
 	public static void main(String[] args)  {
 		
-		int num1 = 30;
-		int num2 = 40;
+		int num1 = 30, num2 = 40;
 		
 		// == ---> Equal to
 		System.out.println("num1 is equal to num2 -->"+ (num1 == num2));
