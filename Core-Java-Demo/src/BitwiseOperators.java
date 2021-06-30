@@ -31,17 +31,20 @@ public class BitwiseOperators {
 		//  11110 // Decimal 30
 		System.out.println("Bitwise XOR of 10 and 20 is ---> " + (ten ^ twenty));
 		
-		// Bitwise Complement (~) – inverts all bits, meaning it makes every 0 to 1, and every 1 to 0.
+		// Bitwise Complement (~) – inverts all bits, meaning it makes every 0 to 1, 
+		// and every 1 to 0.
 		//  ~1010
 		// ---------
 		//   0101 // Decimal 5		
 		System.out.println("Bitwise COMPLIMENT of 10 is ---> " + (~ten));
 		
-		// Signed Shift Right (>>) - Shifts the bits of the number to the right and fills the voids left with the sign bit
+		// Signed Shift Right (>>) - Shifts the bits of the number to the right 
+		// and fills the voids left with the sign bit
 		//  ten = 1010; ten >> 2 == 0010 // Decimal 2
 		System.out.println("Shift Right 10 by 2 is ---> " + (ten >> 2));
 		
-		// Signed Shift Left (<<) - Shifts the bits of the number to the right and fills the voids left with the sign bit
+		// Signed Shift Left (<<) - Shifts the bits of the number to the right 
+		// and fills the voids left with the sign bit
 		//  ten = 1010; ten << 2 == 101000 // Decimal 40
 		System.out.println("Shift Left 10 by 2 is ---> " + (ten << 2));
 		
