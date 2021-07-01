@@ -1,3 +1,7 @@
+// http://easyonlineconverter.com/converters/bitwise-calculator.html
+
+// https://www.rapidtables.com/convert/number/decimal-to-binary.html
+
 
 public class BitwiseOperators {
 
@@ -31,7 +35,7 @@ public class BitwiseOperators {
 		//  11110 // Decimal 30
 		System.out.println("Bitwise XOR of 10 and 20 is ---> " + (ten ^ twenty));
 		
-		// Bitwise Complement (~) – inverts all bits, meaning it makes every 0 to 1, 
+		// Bitwise Complement (~) â€“ inverts all bits, meaning it makes every 0 to 1, 
 		// and every 1 to 0.
 		//  ~1010
 		// ---------
